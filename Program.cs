@@ -12,6 +12,13 @@ namespace DataStructures_and_algorithms_practice
 
 
 
+            //TryLinkedList();
+
+            Console.ReadKey();
+        }
+
+        private static void TryLinkedList()
+        {
             LinkedList<string> linkedList = new LinkedList<string>();
 
             linkedList.Add("head");
@@ -35,8 +42,6 @@ namespace DataStructures_and_algorithms_practice
             Console.WriteLine("Deleting to be deleted");
             linkedList.Delete(toBeDeleted);
             PrintList(linkedList);
-
-            Console.ReadKey();
         }
 
         private static void PrintList(LinkedList<string> linkedList)

@@ -8,6 +8,6 @@ Insertion / Deletion is optimal and matter of **changing ref pointers** | Insert
 **Accessing** random element costs **O(N)** | If you know index of the element it is **O(1)**
 **Additional space** needed for next pointer | **No additional space** is needed
 Not suitable for data caching | **Suitable for data caching** because need lesser space and O(1) accessing
-Suitable for data **frequently insert/delete** and **unknow size** | Suitable for read operations to be quick
+Suitable for data **frequently insert/delete (modified)** and **unknow size** | Suitable for read operations to be quick
 
 
