@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Linked_lists\**" />
+    <EmbeddedResource Remove="Linked_lists\**" />
+    <None Remove="Linked_lists\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Linked_lists\Linked_lists.csproj" />
+  </ItemGroup>
+
 </Project>

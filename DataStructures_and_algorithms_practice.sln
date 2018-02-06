@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures_and_algorithms_practice", "DataStructures_and_algorithms_practice.csproj", "{D16119DE-E6F6-42B3-8EE1-6C1169EE59F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked_lists", "Linked_lists\Linked_lists.csproj", "{2B45DAA4-6B0A-46B5-ADDD-D78C489B0C3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D16119DE-E6F6-42B3-8EE1-6C1169EE59F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D16119DE-E6F6-42B3-8EE1-6C1169EE59F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D16119DE-E6F6-42B3-8EE1-6C1169EE59F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B45DAA4-6B0A-46B5-ADDD-D78C489B0C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B45DAA4-6B0A-46B5-ADDD-D78C489B0C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B45DAA4-6B0A-46B5-ADDD-D78C489B0C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B45DAA4-6B0A-46B5-ADDD-D78C489B0C3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
