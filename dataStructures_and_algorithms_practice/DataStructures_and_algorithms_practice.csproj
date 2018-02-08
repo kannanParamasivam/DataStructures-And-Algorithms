@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="Linked_lists\Linked_lists.csproj" />
+    <ProjectReference Include="..\Linked_lists\Linked_lists.csproj" />
   </ItemGroup>
 
 </Project>
