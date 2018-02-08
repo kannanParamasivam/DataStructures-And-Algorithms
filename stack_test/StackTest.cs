@@ -119,5 +119,43 @@ namespace stack_test
             Assert.Equal(this._stack.GetMaxSize(), this._stack.GetSize());
             Assert.Throws<stack.StackOverflowException>(() => this._stack.PUSH("new data"));
         }
+
+        [Fact]
+        public void IsEmpty_WhenNoElements_ShouldReturnTrue() {
+            Assert.Equal(0, this._stack.GetSize());
+            Assert.True(this._stack.IsEmpty());
+        }
+
+        [Fact]
+        public void IsEmpty_WhenElementsPresent_ShouldReturnFlase() {
+            this._stack.PUSH("first Element");
+            this._stack.PUSH("SecondElement");
+
+            Assert.Equal(2, this._stack.GetSize());
+            Assert.False(this._stack.IsEmpty());
+        }
+
+        [Fact]
+        public void IsFull_WhenMaxSizeIsNotMet_ShouldReturenFalse()
+        {
+            this._stack.PUSH("element");
+
+            Assert.Equal(1, this._stack.GetSize());
+            Assert.Equal(30, this._stack.GetMaxSize());
+            Assert.False(this._stack.IsFull());
+        }
+
+        [Fact]
+        public void IsFull_WhenMaxSizeIsMet_ShouldReturnTrue() {
+
+            for (int i = 0; i < this._stack.GetMaxSize(); i++)
+            {
+                this._stack.PUSH(i.ToString());
+            }
+
+            Assert.Equal(30, this._stack.GetSize());
+            Assert.Equal(30, this._stack.GetMaxSize());
+            Assert.True(this._stack.IsFull());
+        }
     }
 }

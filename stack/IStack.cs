@@ -12,5 +12,7 @@ namespace stack
         T POP();
         T PEEK();
         void PUSH(T data);
+        bool IsEmpty();
+        bool IsFull();
     }
 }

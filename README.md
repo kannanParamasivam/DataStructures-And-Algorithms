@@ -16,12 +16,18 @@ No Spatial locality | **Spatial locality**
 * All the elements below top would be hidden away
 * **POP/PEEK in empty** (StackUnderFlow Exception) stack and **PUSH in full** (StackOverFlow Exception)) stack is **ERROR**, need to throw exception
 * Perfect fit for **underlying data structure** of stack is **LinkedList** as it is less complex to remove and add head element
+* **Space complexity** of stack is **O(N)** as space occupied grows proportionally to the number of elements. 
 ### Operations in Stack
-Action | Description
-| --- | --- |
-**PUSH** | Adding new element to the top 
-**POP** | Referencing and Removing element from top
-**PEEK** | Just referencing the top element without removing
-**ISEMPTY** | Check whether any element present in the stack
-**ISFULL** | Check whether a stack is full
-**SIZE** | Gets size of the stack
+Action | Description | Complexity
+| --- | --- | --- |
+**PUSH** | Adding new element to the top | O(1) 
+**POP** | Referencing and Removing element from top | O(1)
+**PEEK** | Just referencing the top element without removing | O(1)
+**ISEMPTY** | Check whether any element present in the stack | O(1)
+**ISFULL** | Check whether a stack is full | O(1)
+**SIZE** | Gets size of the stack | O(1)
+### Real world applications
+* **Undo** operations in applications
+* **Back Button** in web browser
+* Holding the memory for **Recursive Calls**
+* **Infix and Postfix expressions** in programming languages

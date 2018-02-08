@@ -53,5 +53,15 @@ namespace stack
             this.top = newEelement;
             this.size++;
         }
+
+        public bool IsEmpty()
+        {
+            return this.size == 0;
+        }
+
+        public bool IsFull()
+        {
+            return this.MAX_SIZE == this.size;
+        }
     }
 }
