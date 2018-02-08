@@ -12,7 +12,7 @@ namespace DataStructures_and_algorithms_practice
 
 
 
-            //TryLinkedList();
+            TryLinkedList();
 
             Console.ReadKey();
         }
@@ -28,7 +28,7 @@ namespace DataStructures_and_algorithms_practice
             PrintList(linkedList);
 
             Console.WriteLine("Adding new head");
-            linkedList.AddFirst("new_head");
+            Node<string> newHeadNode = linkedList.AddFirst("new_head");
             PrintList(linkedList);
 
             Console.WriteLine("Adding new second");
@@ -41,6 +41,10 @@ namespace DataStructures_and_algorithms_practice
 
             Console.WriteLine("Deleting to be deleted");
             linkedList.Delete(toBeDeleted);
+            PrintList(linkedList);
+
+            Console.WriteLine("Removing head node");
+            linkedList.Delete(newHeadNode);
             PrintList(linkedList);
         }
 

@@ -4,14 +4,17 @@ using System.Text;
 
 namespace Linked_lists
 {
-    public class LinkedList<T>
+    public class LinkedList<T> : ILinkedList<T>
     {
+        #region Private Fields
         private Node<T> _head;
 
         private Node<T> _tail;
 
         private int _size;
+        #endregion
 
+        #region Public Members
         public Node<T> Head { get { return _head; } }
 
         public Node<T> Tail { get { return _tail; } }
@@ -60,8 +63,20 @@ namespace Linked_lists
             {
                 if (currentNode == node)
                 {
-                    currentNode.Previous.Next = currentNode.Next;
-                    currentNode.Next.Previous = currentNode.Previous;
+                    if (!IsHead(currentNode))
+                        LinkPreviousNodeToNextNode(currentNode);
+
+                    if (!IsTail(currentNode))
+                        LinkNextNodeToPreviousNode(currentNode);
+
+                    if (IsHead(currentNode))
+                        UpdateHead(currentNode.Next);
+
+                    if (IsTail(currentNode))
+                        UpdateTail(currentNode.Previous);
+
+                    RemoveLinks(currentNode);
+
                     this._size--;
                     return true;
                 }
@@ -133,7 +148,44 @@ namespace Linked_lists
             else
                 return null;
         }
+        #endregion
 
+        #region Helper Methods
+        private void UpdateTail(Node<T> node)
+        {
+            this._tail = node;
+        }
 
+        private void UpdateHead(Node<T> node)
+        {
+            this._head = node;
+        }
+
+        private static void RemoveLinks(Node<T> currentNode)
+        {
+            currentNode.Previous = null;
+            currentNode.Next = null;
+        }
+
+        private static void LinkNextNodeToPreviousNode(Node<T> currentNode)
+        {
+            currentNode.Next.Previous = currentNode.Previous;
+        }
+
+        private static void LinkPreviousNodeToNextNode(Node<T> currentNode)
+        {
+            currentNode.Previous.Next = currentNode.Next;
+        }
+
+        private static bool IsTail(Node<T> currentNode)
+        {
+            return currentNode.Next == null;
+        }
+
+        private static bool IsHead(Node<T> currentNode)
+        {
+            return currentNode.Previous == null;
+        }
+        #endregion
     }
 }

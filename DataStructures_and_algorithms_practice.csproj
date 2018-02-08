@@ -6,8 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="linkedlist_with_single_element\**" />
+    <Compile Remove="linkedlist_with_single_element_test\**" />
     <Compile Remove="Linked_lists\**" />
+    <EmbeddedResource Remove="linkedlist_with_single_element\**" />
+    <EmbeddedResource Remove="linkedlist_with_single_element_test\**" />
     <EmbeddedResource Remove="Linked_lists\**" />
+    <None Remove="linkedlist_with_single_element\**" />
+    <None Remove="linkedlist_with_single_element_test\**" />
     <None Remove="Linked_lists\**" />
   </ItemGroup>
 
