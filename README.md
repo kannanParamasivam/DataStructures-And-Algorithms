@@ -14,7 +14,7 @@ No Spatial locality | **Spatial locality**
 >It is **Last In First Out** (LIFO) datastructure.
 * Always actions performed one end of the statck which is **top**
 * All the elements below top would be hidden away
-* **POP in empty** stack and **PUSH in full** stack is **ERROR**, need to throw exception
+* **POP/PEEK in empty** (StackUnderFlow Exception) stack and **PUSH in full** (StackOverFlow Exception)) stack is **ERROR**, need to throw exception
 * Perfect fit for **underlying data structure** of stack is **LinkedList** as it is less complex to remove and add head element
 ### Operations in Stack
 Action | Description

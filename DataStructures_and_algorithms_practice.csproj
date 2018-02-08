@@ -9,12 +9,18 @@
     <Compile Remove="linkedlist_with_single_element\**" />
     <Compile Remove="linkedlist_with_single_element_test\**" />
     <Compile Remove="Linked_lists\**" />
+    <Compile Remove="stack\**" />
+    <Compile Remove="stack_test\**" />
     <EmbeddedResource Remove="linkedlist_with_single_element\**" />
     <EmbeddedResource Remove="linkedlist_with_single_element_test\**" />
     <EmbeddedResource Remove="Linked_lists\**" />
+    <EmbeddedResource Remove="stack\**" />
+    <EmbeddedResource Remove="stack_test\**" />
     <None Remove="linkedlist_with_single_element\**" />
     <None Remove="linkedlist_with_single_element_test\**" />
     <None Remove="Linked_lists\**" />
+    <None Remove="stack\**" />
+    <None Remove="stack_test\**" />
   </ItemGroup>
 
   <ItemGroup>
