@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked_lists", "Linked_list
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linkedlist_with_sigle_element", "linkedlist_with_single_element\linkedlist_with_sigle_element\linkedlist_with_sigle_element.csproj", "{4B4CD9B3-D4B5-4E21-B91C-F3A87FB2DBCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linkedlist_with_single_element_test", "linkedlist_with_single_element_test\linkedlist_with_single_element_test.csproj", "{DBC610C5-2512-451A-9C8F-13499E2A8B74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linkedlist_with_single_element_test", "linkedlist_with_single_element_test\linkedlist_with_single_element_test.csproj", "{DBC610C5-2512-451A-9C8F-13499E2A8B74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stack", "stack\stack.csproj", "{5B655486-86C9-437E-8EEA-F0B15FAC098E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack", "stack\stack.csproj", "{5B655486-86C9-437E-8EEA-F0B15FAC098E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stack_test", "stack_test\stack_test.csproj", "{AEA3D55C-6F18-4A3B-A26A-377CE8E07717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack_test", "stack_test\stack_test.csproj", "{AEA3D55C-6F18-4A3B-A26A-377CE8E07717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem_solving_using_stack", "problem_solving_using_stack\problem_solving_using_stack.csproj", "{3672F19F-EDFB-462C-8F4F-322C01861CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "problem_solving_using_stack", "problem_solving_using_stack\problem_solving_using_stack.csproj", "{3672F19F-EDFB-462C-8F4F-322C01861CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem_solving_using_stack_test", "problem_solving_using_stack_test\problem_solving_using_stack_test.csproj", "{A059C100-A6AA-4D1D-8794-D9039F050F6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3672F19F-EDFB-462C-8F4F-322C01861CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3672F19F-EDFB-462C-8F4F-322C01861CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3672F19F-EDFB-462C-8F4F-322C01861CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A059C100-A6AA-4D1D-8794-D9039F050F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A059C100-A6AA-4D1D-8794-D9039F050F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A059C100-A6AA-4D1D-8794-D9039F050F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A059C100-A6AA-4D1D-8794-D9039F050F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

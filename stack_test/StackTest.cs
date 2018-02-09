@@ -1,4 +1,4 @@
-using stack;
+using Stack;
 using System;
 using Xunit;
 
@@ -29,14 +29,14 @@ namespace stack_test
         public void POP_WhenSizeIsZero_ShouldThrowStackUnderFlowException()
         {
             Assert.Equal(0, this._stack.GetSize());
-            Assert.Throws<stack.StackUnderflowException>(() => _stack.POP());
+            Assert.Throws<Stack.StackUnderflowException>(() => _stack.POP());
         }
 
         [Fact]
         public void PEEK_WhenSizeIsZero_ShouldThrowStackUnderFlowException()
         {
             Assert.Equal(0, this._stack.GetSize());
-            Assert.Throws<stack.StackUnderflowException>(() => _stack.PEEK());
+            Assert.Throws<Stack.StackUnderflowException>(() => _stack.PEEK());
         }
 
         [Fact]
@@ -117,7 +117,7 @@ namespace stack_test
             }
 
             Assert.Equal(this._stack.GetMaxSize(), this._stack.GetSize());
-            Assert.Throws<stack.StackOverflowException>(() => this._stack.PUSH("new data"));
+            Assert.Throws<Stack.StackOverflowException>(() => this._stack.PUSH("new data"));
         }
 
         [Fact]

@@ -1,7 +1,7 @@
 ﻿using linkedlist_with_sigle_element;
 using System;
 
-namespace stack
+namespace Stack
 {
     public class Stack<T> : IStack<T>
     {
