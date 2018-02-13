@@ -1,11 +1,13 @@
 # ds_and_algorithms_safaribooks
 ## Table of Content
-# | Topics
+# | Topic
 | --- | --- |
 | 1 | [LinkedList](#difference-between-linkedlist-and-array)
 | 2 | [Stack](#stack)
 | 3 | [Queue](#queue)
 | 4 | [Selection Sort](#selection-sort)
+| 5 | [Bubble Sort](#bubble-sort)
+| 6 | [Insertion Sort](#insertion-sort)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -68,10 +70,31 @@ Action | Description | Complexity
 * **Not stable sort** as the equal elements might be rearranged
 * This is typically not used anywhere as it is worst way of sorting
 * Advantage is it **does not use extra space** and **simple to use**
+* Already **Sorted list** also will take O(N)
 <br>[Back to Top](#table-of-content)
 ## Bubble Sort
 >It allows smallest element to bubble up to begining of the collection
-
+* Time complexity is O(N^2)
+### Pros
+* Can break out from looping when there is no swap happened
+* If list is **already sorted** it wont be processed
+* **Stable sort** (equal elements order wont be changed)
+* **In-Place** sorting
+* O(N^2) comparitions and O(N^2) sortings
+### Cons
+* Number of swaps are higher than selection sort
+<br>[Back to Top](#table-of-content)
+## Insertion Sort
+>Create new sublist with 1 element which is sorted and add elements and keep it sorted
+* Time complexity is **O(N^2)**
+* Space complexity is **O(1)**
+* N^2 Comparitions and N^2 Swaps
+### pros
+* Inplace sort
+* Stable sort
+* Adaptive (When the elements are partially sorted it will adopt it)
+* When comparition with last element is ok, break the inner iteration
+* Fewer comparitions than Bubble sort
 <br>[Back to Top](#table-of-content)
 ## Questions
 * **```yield```** keywor in C#
