@@ -5,6 +5,7 @@
 | 1 | [LinkedList](#difference-between-linkedlist-and-array)
 | 2 | [Stack](#stack)
 | 3 | [Queue](#queue)
+| 4 | [Selection Sort](#selection-sort)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -59,6 +60,18 @@ Action | Description | Complexity
 * Queueing jobs in **prtinter**
 * Transaction system in bank
 * Inventory management
+<br>[Back to Top](#table-of-content)
+## Selection Sort
+> Every element typically compared to every other
+* Time complexity is **O(N^2)**
+* Space complexity is ) **O(1)** (No extra space for sorting which is known as **In-Place sorting**)
+* **Not stable sort** as the equal elements might be rearranged
+* This is typically not used anywhere as it is worst way of sorting
+* Advantage is it **does not use extra space** and **simple to use**
+<br>[Back to Top](#table-of-content)
+## Bubble Sort
+>It allows smallest element to bubble up to begining of the collection
+
 <br>[Back to Top](#table-of-content)
 ## Questions
 * **```yield```** keywor in C#
