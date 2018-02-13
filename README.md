@@ -1,5 +1,10 @@
 # ds_and_algorithms_safaribooks
-
+## Table of Content
+# | Topics
+| --- | --- |
+| 1 | [LinkedList](#difference-between-linkedlist-and-array)
+| 2 | [Stack](#stack)
+| 3 | [Queue](#queue)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -9,7 +14,8 @@ Insertion / Deletion is optimal and matter of **changing ref pointers** | Insert
 **Additional space** needed for next pointer | **No additional space** is needed
 Not suitable for data caching | **Suitable for data caching** because need lesser space and O(1) accessing
 Suitable for data **frequently insert/delete (modified)** and **unknow size** | Suitable for read operations to be quick
-No Spatial locality | **Spatial locality**  
+No Spatial locality | **Spatial locality** 
+[Back to Top](#table-of-content) 
 ## Stack
 >It is **Last In First Out** (LIFO) datastructure.
 * Always actions performed one end of the statck which is **top**
@@ -31,6 +37,29 @@ Action | Description | Complexity
 * **Back Button** in web browser
 * Holding the memory for **Recursive Calls**
 * **Infix and Postfix expressions** in programming languages
+
+[Back to Top](#table-of-content)
+## Queue
+>Queue is **First In First Out** (FIFO) data structure
+* Elements **added at the end** of the queue
+* Elements **removed from beginning** of the queue
+### Actions on Queue
+| Action | Description | Complexity |
+| --- | --- | --- |
+| **ENQUEUE** | Adding new element to he end of the queue | O(1)
+| **DEQUEUE** | Removing an element from the begining of the queue | O(1)
+| **PEEK** | See element at the head of the queue | O(1)
+| **OFFER** | **ENQUEUE** an element if space available | O(1)
+* Enqueueing to the the full queue and dequeueing from empty queue throws exception
+* **Underlying datastructure** for Queue implementation is **Circular Queue** (Circualar Array)
+* HEAD = -1 in an empty queue
+* Space complexity is O(N)
+### Application of Queues
+* **Hotline** customer care service
+* Queueing jobs in **prtinter**
+* Transaction system in bank
+* Inventory management
+<br>[Back to Top](#table-of-content)
 ## Questions
 * **```yield```** keywor in C#
 
