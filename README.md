@@ -8,6 +8,8 @@
 | 4 | [Selection Sort](#selection-sort)
 | 5 | [Bubble Sort](#bubble-sort)
 | 6 | [Insertion Sort](#insertion-sort)
+| 7 | [Shell Sort](#shell-sort)
+| 8 | [Merge Sort](#merge-sort)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -95,6 +97,22 @@ Action | Description | Complexity
 * Adaptive (When the elements are partially sorted it will adopt it)
 * When comparition with last element is ok, break the inner iteration
 * Fewer comparitions than Bubble sort
+<br>[Back to Top](#table-of-content)
+## Shell Sort
+> Pick and start element and interval and apply insertion sort for those elements. Keep decrementing the increment till 1
+* It is not possible to find complexity of ShellShort but it it better than Insertion Sort
+<br>[Back to Top](#table-of-content)
+## Merge Sort
+>Divide and Conqure mechanism
+* Merge sort is better than above sorts
+* Time Complexity is **O(NLogN)**
+* Space Complexity is **O(N)**
+### Pros
+* Complexity O(NlogN) is less
+* Can not break out the sorting ealry
+### Cons
+* **Not Adaptive**
+* **Not InPlace**
 <br>[Back to Top](#table-of-content)
 ## Questions
 * **```yield```** keywor in C#
