@@ -17,15 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack_test", "stack_test\st
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "problem_solving_using_stack", "problem_solving_using_stack\problem_solving_using_stack.csproj", "{3672F19F-EDFB-462C-8F4F-322C01861CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "problem_solving_using_stack_test", "problem_solving_using_stack_test\problem_solving_using_stack_test.csproj", "{A059C100-A6AA-4D1D-8794-D9039F050F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "problem_solving_using_stack_test", "problem_solving_using_stack_test\problem_solving_using_stack_test.csproj", "{A059C100-A6AA-4D1D-8794-D9039F050F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue", "queue\queue.csproj", "{C0E862A5-3DED-45B6-BBCF-7ED1285F9979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue", "queue\queue.csproj", "{C0E862A5-3DED-45B6-BBCF-7ED1285F9979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue_test", "queue_test\queue_test.csproj", "{3B2A8227-98CC-4E45-9221-AEF6987DF126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue_test", "queue_test\queue_test.csproj", "{3B2A8227-98CC-4E45-9221-AEF6987DF126}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorting", "sorting\sorting.csproj", "{189CEE11-089D-4E98-87DA-08D013205D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sorting", "sorting\sorting.csproj", "{189CEE11-089D-4E98-87DA-08D013205D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorting_test", "sorting_test\sorting_test.csproj", "{6BDBC1A6-04F2-4C8C-838C-430B53E2A376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sorting_test", "sorting_test\sorting_test.csproj", "{6BDBC1A6-04F2-4C8C-838C-430B53E2A376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "search", "Search\search.csproj", "{ED0ACD04-FFE2-4C66-B1A7-BB033611EF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "search_test", "search_test\search_test.csproj", "{283002A9-9161-4014-885C-A3BA1E72F8FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{6BDBC1A6-04F2-4C8C-838C-430B53E2A376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDBC1A6-04F2-4C8C-838C-430B53E2A376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDBC1A6-04F2-4C8C-838C-430B53E2A376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0ACD04-FFE2-4C66-B1A7-BB033611EF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0ACD04-FFE2-4C66-B1A7-BB033611EF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0ACD04-FFE2-4C66-B1A7-BB033611EF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0ACD04-FFE2-4C66-B1A7-BB033611EF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283002A9-9161-4014-885C-A3BA1E72F8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283002A9-9161-4014-885C-A3BA1E72F8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283002A9-9161-4014-885C-A3BA1E72F8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283002A9-9161-4014-885C-A3BA1E72F8FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

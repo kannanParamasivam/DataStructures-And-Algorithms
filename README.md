@@ -10,6 +10,9 @@
 | 6 | [Insertion Sort](#insertion-sort)
 | 7 | [Shell Sort](#shell-sort)
 | 8 | [Merge Sort](#merge-sort)
+| 9 | [Quick Sort](#quick-sort)
+| 10 | [Binary Search](#binary-search)
+| 11 | [Binary Tree](#binary-tree)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -103,17 +106,52 @@ Action | Description | Complexity
 * It is not possible to find complexity of ShellShort but it it better than Insertion Sort
 <br>[Back to Top](#table-of-content)
 ## Merge Sort
->Divide and Conqure mechanism
+>Divide and Conqure mechanism. If less contraint on space and high constraint on time.
 * Merge sort is better than above sorts
 * Time Complexity is **O(NLogN)**
 * Space Complexity is **O(N)**
 ### Pros
-* Complexity O(NlogN) is less
+* Complexity **O(NlogN)** which is less than selection, Bubble, Insertion and Shell sort
 * Can not break out the sorting ealry
+* **Stable Sort**
 ### Cons
 * **Not Adaptive**
-* **Not InPlace**
+* **Not InPlace** takes O(N) extra space
+<br>[Back to Top](#table-of-content)
+## Quick Sort
+>Divide and Conqure as MergeSort. **Prefered** sorting methodology when want sorting to be quick. Better for sorting In-Memory elements. If fewer contraint on space and high constraint on time.
+* **Standard sorting methodology** in many libraries such as C and C++ standard library
+* **Divide by pivot** instead of length. Elements smaller than Pivot goes to one array and larger than Pivot goes to another array
+* Usually first or last element of the lilst is choosen as Pivot. It can be random.
+* Time Complexity is **O(NLogN)** and Space Complexity is O(LogN)
+### Pros
+### Cons
+* **Not Adaptive** (No way to know whether the list is already sorted)
+* **Not In-Place** as it takes O(LogN) for call stack.
+* **Not Stable** as it does not preserve the position of equal elements (???)
+<br>[Back to Top](#table-of-content)
+## Binary Search
+>Works on sorted list. Find mid point and compare.
+### Pros
+* Way **Faster** than linear search
+* Complexity of linear search is O(N) were in Binary Search it is **O(LogN)**
+<br>[Back to Top](#table-of-content)
+## Binary Tree
+>It is hirarichal data strucrture
+
+|Terminology | Desc.|
+| --- | --- |
+| Root | Node at the begining of the tree which has no parents |
+| EDGE | Relationship between parent and child node. Pictorially arrow between two nodes |
+| LEAF | Nodes in bottom level of the tree which doesnt have any child |
+| SIBLINGS | Nodes in same level of the tree |
+
+* Each node can have 0, 1 or 2 children
+
 <br>[Back to Top](#table-of-content)
 ## Questions
+* **QuickSort workout and code**
 * **```yield```** keywor in C#
+* Inner list in table of MD script
+
 
