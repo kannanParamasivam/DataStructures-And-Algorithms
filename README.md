@@ -179,5 +179,6 @@ Action | Description | Complexity
 * **QuickSort workout and code**
 * **```yield```** keywor in C#
 * Inner list in table of MD script
+* Practice Binary Tree Problems from http://cslibrary.stanford.edu/110/binarytrees.pdf
 
 
