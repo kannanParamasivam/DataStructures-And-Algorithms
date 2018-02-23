@@ -13,6 +13,7 @@
 | 9 | [Quick Sort](#quick-sort)
 | 10 | [Binary Search](#binary-search)
 | 11 | [Binary Tree](#binary-tree)
+| 12 | [Binary Search Tree](#binary-search-tree)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -145,10 +146,35 @@ Action | Description | Complexity
 | EDGE | Relationship between parent and child node. Pictorially arrow between two nodes |
 | LEAF | Nodes in bottom level of the tree which doesnt have any child |
 | SIBLINGS | Nodes in same level of the tree |
+| TRAVERSE | Visiting the nodes of a tree |
 
 * Each node can have 0, 1 or 2 children
+* There are many ways in visiting the nodes of a tree
+* Two common ways of **Traversing** tree are
+    * Breadth First
+        >Visiting elements level by level (i.e., All siblings should be processed before going to next level of siblings)
+    * Depth First
+        >Visiting elements vertical by vertical
+        * Pre-Order 
+            >Root -> Left SubTree -> Right SubTree
+        * In-Order
+            >Left SubTree -> Root -> Right Subtree
+        * Post-Order
+            >Left Subtree -> Right Subtree -> Root
 
-<br>[Back to Top](#table-of-content)
+[Back to Top](#table-of-content)
+## Binary Search Tree
+>Binary search tree is another variation of Binary Tree. It is also called as **Ordered Binary Tree**
+
+* Left node contains value <= value of node
+* Right node contains value > value of node
+* Average complexity for **Insertion / Lookup** is **O(LogN)**
+* When Tree is **Skewed** to one side because the root is smalest or largest element, complexity is **O(N)**
+### Pros
+* Extremely Fast **Insertion / Lookup**
+### Cons
+
+[Back to Top](#table-of-content)
 ## Questions
 * **QuickSort workout and code**
 * **```yield```** keywor in C#
