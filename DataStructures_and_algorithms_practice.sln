@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack", "stack\stack.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack_test", "stack_test\stack_test.csproj", "{AEA3D55C-6F18-4A3B-A26A-377CE8E07717}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "problem_solving_using_stack", "problem_solving_using_stack\problem_solving_using_stack.csproj", "{3672F19F-EDFB-462C-8F4F-322C01861CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack_problem_solving", "problem_solving_using_stack\stack_problem_solving.csproj", "{3672F19F-EDFB-462C-8F4F-322C01861CB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "problem_solving_using_stack_test", "problem_solving_using_stack_test\problem_solving_using_stack_test.csproj", "{A059C100-A6AA-4D1D-8794-D9039F050F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stack_problem_solving_test", "problem_solving_using_stack_test\stack_problem_solving_test.csproj", "{A059C100-A6AA-4D1D-8794-D9039F050F6F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "queue", "queue\queue.csproj", "{C0E862A5-3DED-45B6-BBCF-7ED1285F9979}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary_tree", "binary_tree\binary_tree.csproj", "{EC8D5A2D-02E0-413F-B6EF-197E8AB0698D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary_tree_test", "binary_tree_test\binary_tree_test.csproj", "{5A02C9C2-01CD-4DDB-B7A2-B6C31B65BEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary_tree_problem_solving", "binary_tree_problem_solving\binary_tree_problem_solving.csproj", "{8830B006-77DF-4BCE-A7CC-6BB7AD2A0F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary_tree_problem_solving_test", "binary_tree_problem_solving_test\binary_tree_problem_solving_test.csproj", "{8F199F61-BE61-4C87-88DA-F6FB1ECC22B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{5A02C9C2-01CD-4DDB-B7A2-B6C31B65BEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A02C9C2-01CD-4DDB-B7A2-B6C31B65BEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A02C9C2-01CD-4DDB-B7A2-B6C31B65BEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8830B006-77DF-4BCE-A7CC-6BB7AD2A0F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8830B006-77DF-4BCE-A7CC-6BB7AD2A0F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8830B006-77DF-4BCE-A7CC-6BB7AD2A0F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8830B006-77DF-4BCE-A7CC-6BB7AD2A0F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F199F61-BE61-4C87-88DA-F6FB1ECC22B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F199F61-BE61-4C87-88DA-F6FB1ECC22B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F199F61-BE61-4C87-88DA-F6FB1ECC22B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F199F61-BE61-4C87-88DA-F6FB1ECC22B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

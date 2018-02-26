@@ -14,6 +14,7 @@
 | 10 | [Binary Search](#binary-search)
 | 11 | [Binary Tree](#binary-tree)
 | 12 | [Binary Search Tree](#binary-search-tree)
+| 13 | [Priority Queue](#priority-queue)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -173,6 +174,13 @@ Action | Description | Complexity
 ### Pros
 * Extremely Fast **Insertion / Lookup**
 ### Cons
+### Problems Using Binary Tree
+* Find Min / Max value
+* Find depth of a tree
+
+[Back to Top](#table-of-content)
+## Priority Queue
+> Processing the elements which has highest weightage first
 
 [Back to Top](#table-of-content)
 ## Questions

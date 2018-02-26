@@ -14,7 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\problem_solving_using_stack\stack_problem_solving.csproj" />
+    <ProjectReference Include="..\binary_tree\binary_tree.csproj" />
+    <ProjectReference Include="..\binary_tree_problem_solving\binary_tree_problem_solving.csproj" />
   </ItemGroup>
 
 </Project>
