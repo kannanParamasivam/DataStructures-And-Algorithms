@@ -14,7 +14,8 @@
 | 10 | [Binary Search](#binary-search)
 | 11 | [Binary Tree](#binary-tree)
 | 12 | [Binary Search Tree](#binary-search-tree)
-| 13 | [Priority Queue](#priority-queue)
+| 13 | [Heap](#heap)
+| 14 | [Heap Sort](#heap-sort)
 ## Difference between LinkedList and Array
 Linked List | Array
 --- | --- |
@@ -179,8 +180,28 @@ Action | Description | Complexity
 * Find depth of a tree
 
 [Back to Top](#table-of-content)
-## Priority Queue
+## Heap
 > Processing the elements which has highest weightage first
+* Internal data container can be any linear data structure. Most commonly Array
+* Operations are **Insertion** and **Access / Remove Element of High Priority**
+* **Scheduling of Threads** is one of the application
+* Heap Property and Shape Property
+* Minimum Heap and Maximum Heap
+* Heapifying element
+    * Shift down
+    * Shift up
+* Insertion O(LogN)
+* Access highest priority element O(1)
+* Remove highest priority element O(LogN)
+
+[Back to Top](#table-of-content)
+## Heap Sort
+> Heapify the elements and Sort it.
+
+* Time Complexity is **O(NLogN)**
+* **Not Adaptive**. If data is already sorted it wont breakout early
+* **Not Stable Sort**. If two elements with same value, that order wont be taken care.
+* **In Place Sorting**. Space complexity is **O(1)** which means no additional space is needed to sort.
 
 [Back to Top](#table-of-content)
 ## Questions
