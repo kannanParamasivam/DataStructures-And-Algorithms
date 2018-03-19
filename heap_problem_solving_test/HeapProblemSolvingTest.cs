@@ -34,6 +34,27 @@ namespace heap_problem_solving_test
             Assert.Equal(15, HeapProblemSolving.FindMaximumElementInAMinHeap<int>(minimumHeap: minHeap));
         }
 
+        /// <summary>
+        /// This is applicable for the inputs coming from the source like keyboard but we are not sure about what 
+        /// is gonna come in
+        /// </summary>
+        [Fact]
+        public void FindMaximumKElementsInASequence_WhenCalled_ShouldReturnMaximumKElement()
+        {
+            int[] data = new int[] { 5, 8, 6, 9, 12, 11, 7, 15, 10 };
+            int[] actualResult = HeapProblemSolving.FindMaximumKElementsInASequence(sequence: data, k: 5);
+            int[] expectedResult = new int[] { 15, 12, 11, 10, 9 };
+            Assert.True(!expectedResult.Except<int>(actualResult).Any());
+        }
+
+        [Fact]
+        public void FindMaximumKElementsInASequence_WhenKIsZero_ShouldReturnEmptyResult()
+        {
+            int[] data = new int[] { 5, 8, 6, 9, 12, 11, 7, 15, 10 };
+            int[] result = HeapProblemSolving.FindMaximumKElementsInASequence(sequence: data, k: 0);
+
+            Assert.Equal(new int[] { }, result);
+        }
 
     }
 }

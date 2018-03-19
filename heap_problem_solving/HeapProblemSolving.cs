@@ -30,5 +30,36 @@ namespace heap_problem_solving
             return maxElement;
 
         }
+
+        public static T[] FindMaximumKElementsInASequence<T>(T[] sequence, int k) where T : IComparable
+        {
+            T[] result = new T[k];
+            MinHeap<T> minHeap = new MinHeap<T>(k);
+
+            if (k <= 0)
+                return result;
+
+            for (int i = 0; i < k; i++)
+            {
+                minHeap.Insert(sequence[i]);
+            }
+
+            for (int i = k; i < sequence.Length; i++)
+            {
+                if (minHeap.GetElementAtIndex(0).CompareTo(sequence[i]) < 0)
+                {
+                    minHeap.Remove();
+                    minHeap.Insert(sequence[i]);
+                }
+            }
+
+            for (int i = 0; i < k; i++)
+            {
+                result[i] = minHeap.Remove();
+            }
+
+            return result;
+
+        }
     }
 }
