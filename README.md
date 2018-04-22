@@ -1,6 +1,6 @@
 # ds_and_algorithms_safaribooks
 ## Table of Content
-# | Topic
+| # | Topic |
 | --- | --- |
 | 1 | [LinkedList](#difference-between-linkedlist-and-array)
 | 2 | [Stack](#stack)
