@@ -56,6 +56,7 @@ No Spatial locality | **Spatial locality**
 * Elements **added at the end** of the queue
 * Elements **removed from beginning** of the queue
 ### Actions on Queue
+
 | Action | Description | Complexity |
 | --- | --- | --- |
 | **ENQUEUE** | Adding new element to he end of the queue | O(1)
