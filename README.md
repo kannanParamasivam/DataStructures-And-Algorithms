@@ -53,8 +53,10 @@ No Spatial locality | **Spatial locality**
 [Back to Top](#table-of-content)
 ## Queue
 >Queue is **First In First Out** (FIFO) data structure
+
 * Elements **added at the end** of the queue
 * Elements **removed from beginning** of the queue
+
 ### Actions on Queue
 
 | Action | Description | Complexity |
