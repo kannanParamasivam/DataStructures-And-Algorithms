@@ -35,7 +35,7 @@ No Spatial locality | **Spatial locality**
 * Perfect fit for **underlying data structure** of stack is **LinkedList** as it is less complex to remove and add head element
 * **Space complexity** of stack is **O(N)** as space occupied grows proportionally to the number of elements. 
 ### Operations in Stack
-Action | Description | Complexity
+| Action | Description | Complexity |
 | --- | --- | --- |
 **PUSH** | Adding new element to the top | O(1) 
 **POP** | Referencing and Removing element from top | O(1)
