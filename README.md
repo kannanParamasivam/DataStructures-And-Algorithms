@@ -80,6 +80,7 @@ Action | Description | Complexity
 * Advantage is it **does not use extra space** and **simple to use**
 * Already **Sorted list** also will take O(N)
 <br>[Back to Top](#table-of-content)
+
 ## Bubble Sort
 >It allows smallest element to bubble up to begining of the collection
 * Time complexity is O(N^2)
