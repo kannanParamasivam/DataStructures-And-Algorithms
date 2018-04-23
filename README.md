@@ -326,6 +326,20 @@ No Spatial locality | **Spatial locality**
 
 ![Path](./readme_images/path.JPG "Path")
 
+* **Directed Asyclic Graph**
+
+![Directed Asyclic Graph](./readme_images/directed_asyclic_graph.JPG "Directed Asyclic Graph")
+
+### Representing Graphs
+* **Adjacency Matrix**
+
+![Directed Graph](./readme_images/adjacency_matrix_directed_graph.JPG "Directed Graph")
+
+![Directed Graph](./readme_images/adjacency_matrix_undirected_graph.JPG "Directed Graph")
+
+* **Adjacency List**
+* **Adjacency Set**
+
 ## Questions
 
 * **QuickSort workout and code**

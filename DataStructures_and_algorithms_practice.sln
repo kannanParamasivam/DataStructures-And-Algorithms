@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heap_problem_solving", "hea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heap_problem_solving_test", "heap_problem_solving_test\heap_problem_solving_test.csproj", "{B2CB19A2-AEC4-4096-A7E0-8CE93AF48A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph", "graph\graph.csproj", "{65115ACD-BA87-4C1B-9069-27381045DF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{B2CB19A2-AEC4-4096-A7E0-8CE93AF48A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2CB19A2-AEC4-4096-A7E0-8CE93AF48A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2CB19A2-AEC4-4096-A7E0-8CE93AF48A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65115ACD-BA87-4C1B-9069-27381045DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65115ACD-BA87-4C1B-9069-27381045DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65115ACD-BA87-4C1B-9069-27381045DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65115ACD-BA87-4C1B-9069-27381045DF99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
