@@ -16,6 +16,7 @@
 | 12 | [Binary Search Tree](#binary-search-tree)
 | 13 | [Heap](#heap)
 | 14 | [Heap Sort](#heap-sort)
+| 15 |[Graph](#graph)|
 
 ## Difference between LinkedList and Array
 
@@ -267,6 +268,17 @@ No Spatial locality | **Spatial locality**
 * **In Place Sorting**. Space complexity is **O(1)** which means no additional space is needed to sort.
 
 [Back to Top](#table-of-content)
+
+## Graph
+
+>Graph is the relationship between multiple entities where the relationship may be complex.
+
+* **Vertex** - every node in the graph
+* **Edge** - relationship between vertexes
+
+Example:
+* ![LinkedIn](https://sophosnews.files.wordpress.com/2017/12/linkedin.png?w=780&h=408&crop=1 "LinkedIn")**LinkedIn** - Professional relationships between ppl
+* **Facebook** - Social relationships between ppl
 
 ## Questions
 
