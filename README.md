@@ -275,17 +275,24 @@ No Spatial locality | **Spatial locality**
 
 >Continuously evolving field where lot of new algorithms introduced
 
-* **Vertex** - every node in the graph
-* **Edge** - relationship between vertexes
+* ### Example:
+    * **LinkedIn** - Professional relationships between ppl
+    * **Facebook** - Social relationships between ppl
+    * **Google Maps** - Relationships (contivities) between physical places
+    * **Phone Network** - Old age phone network
+    * **Wireless Phone Network**
+    * **Computer Network**
+    * **Internet** 
 
-### Example:
-* **LinkedIn** - Professional relationships between ppl
-* **Facebook** - Social relationships between ppl
-* **Google Maps** - Relationships (contivities) between physical places
-* **Phone Network** - Old age phone network
-* **Wireless Phone Network**
-* **Computer Network**
-* **Internet** 
+![Sample Graph](./readme_images/sample_graph.JPG "Sample Graph")
+
+* ### Graph terms
+    * **Vertex** - every node in the graph
+    * **Edge** - relationship between vertexes
+
+* **Simplest possible graph** is a single vertex
+
+
 
 
 ## Questions
