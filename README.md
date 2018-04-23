@@ -296,7 +296,35 @@ No Spatial locality | **Spatial locality**
 
 ![Directed Graph](./readme_images/directed_graph.JPG "Directed Graph")
 
+* Basic **Graph Terms**
 
+![Basic Graph Terms](./readme_images/basic_graph_terms.JPG "Basic Graph Terms")
+
+![Basic Graph Terms](./readme_images/basic_graph_terms_1.JPG "Basic Graph Terms")
+
+* **Cyclic Graph**
+
+![Cyclic Graph](./readme_images/cyclic_graph.JPG "Cyclic Graph")
+
+* **Acyclic Graph**
+
+![Acyclic Graph](./readme_images/acyclic_graph.JPG "Acyclic Graph")
+
+* **Connected Graph**
+
+![Connected Graph](./readme_images/connected_graph.JPG "Connected Graph")
+
+* Connected Graph with no cycle as above can be represented as tree as below. (n-ary tree )
+
+![Connected Graph With No Cycle](./readme_images/connected_graph_with_no_cycle.JPG "Connected Graph With No Cycle")
+
+* **Forest** - When un-conntected graph has more than one sub-graphs, it is called forest. Below is a diconnected graph which is forest.
+
+![Forest](./readme_images/forest.JPG "Forest")
+
+* Series of edges is called a **Path**
+
+![Path](./readme_images/path.JPG "Path")
 
 ## Questions
 
