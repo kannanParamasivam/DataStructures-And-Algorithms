@@ -273,12 +273,20 @@ No Spatial locality | **Spatial locality**
 
 >Graph is the relationship between multiple entities where the relationship may be complex.
 
+>Continuously evolving field where lot of new algorithms introduced
+
 * **Vertex** - every node in the graph
 * **Edge** - relationship between vertexes
 
-Example:
+### Example:
 * **LinkedIn** - Professional relationships between ppl
 * **Facebook** - Social relationships between ppl
+* **Google Maps** - Relationships (contivities) between physical places
+* **Phone Network** - Old age phone network
+* **Wireless Phone Network**
+* **Computer Network**
+* **Internet** 
+
 
 ## Questions
 
