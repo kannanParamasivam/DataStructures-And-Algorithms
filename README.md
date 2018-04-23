@@ -92,6 +92,7 @@ No Spatial locality | **Spatial locality**
 ## Selection Sort
 
 > Every element typically compared to every other
+
 * Time complexity is **O(N^2)**
 * Space complexity is ) **O(1)** (No extra space for sorting which is known as **In-Place sorting**)
 * **Not stable sort** as the equal elements might be rearranged
