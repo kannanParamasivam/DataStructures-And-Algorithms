@@ -292,7 +292,9 @@ No Spatial locality | **Spatial locality**
     * **Edge** - relationship between vertexes
 
 * **Simplest possible graph** is a single vertex
+* If EDGE is directed, it is **Directed Graph**
 
+![Directed Graph](./readme_images/directed_graph.JPG "Directed Graph")
 
 
 
