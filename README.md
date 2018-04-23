@@ -277,7 +277,7 @@ No Spatial locality | **Spatial locality**
 * **Edge** - relationship between vertexes
 
 Example:
-* ![LinkedIn](https://sophosnews.files.wordpress.com/2017/12/linkedin.png?w=780&h=408&crop=1 =10x20 "LinkedIn")**LinkedIn** - Professional relationships between ppl
+* **LinkedIn** - Professional relationships between ppl
 * **Facebook** - Social relationships between ppl
 
 ## Questions
@@ -286,5 +286,3 @@ Example:
 * **```yield```** keywor in C#
 * Inner list in table of MD script
 * Practice Binary Tree Problems from http://cslibrary.stanford.edu/110/binarytrees.pdf
-
-
