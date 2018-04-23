@@ -276,6 +276,7 @@ No Spatial locality | **Spatial locality**
 >Continuously evolving field where lot of new algorithms introduced
 
 * ### Example
+
     * **LinkedIn** - Professional relationships between ppl
     * **Facebook** - Social relationships between ppl
     * **Google Maps** - Relationships (contivities) between physical places
