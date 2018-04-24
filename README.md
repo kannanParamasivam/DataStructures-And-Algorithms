@@ -331,6 +331,7 @@ No Spatial locality | **Spatial locality**
 ![Directed Asyclic Graph](./readme_images/directed_asyclic_graph.JPG "Directed Asyclic Graph")
 
 ### Representing Graphs
+
 * **Adjacency Matrix**
 
 ![Directed Graph](./readme_images/adjacency_matrix_directed_graph.JPG "Directed Graph")
